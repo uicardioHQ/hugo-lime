@@ -16,4 +16,4 @@ Feature free version includes:
 * Fully Responsive
 * and many more...
 
-For more information or for any help, [https://uicard.io/products/hugo-lime-free](visit this link)
+For more information or for any help, [visit this link](https://uicard.io/products/hugo-lime-free)
