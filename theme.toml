@@ -3,7 +3,7 @@
 
 name = "Hugo Lime"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = "https://github.com/uicardiodev/hugo-lime/blob/master/LICENSE.md"
 description = ""
 homepage = "http://uicard.io/products/green-paper"
 tags = ["minimal","blog","services","responsive","bootstrap","uicardio","illustrations"]
