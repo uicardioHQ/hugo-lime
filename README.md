@@ -17,3 +17,5 @@ Feature free version includes:
 * and many more...
 
 For more information or for any help, [visit this link](https://uicard.io/products/hugo-lime-free)
+
+[Demo](http://demo.uicard.io/hugo-lime-free-demo) | [Free Version](https://uicard.io/products/hugo-lime) | [Pro Version](https://uicard.io/products/hugo-lime-pro)
