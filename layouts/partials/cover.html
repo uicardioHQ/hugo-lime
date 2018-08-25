@@ -1,0 +1,24 @@
+{{ $cover := .Site.Data.cover }}
+{{ $baseUrl := .Site.BaseURL }}
+
+<section class="cover p-lg-5 p-md-5 p-3" style="margin-top:1px;">
+  <div class="container ">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-12 coverInfo">
+          <h1 style="font-size:50px" class="h1 text-dark">{{ $cover.title }}</h1>
+          <p class="text-secondary">{{ $cover.description }}</p>
+          <a href="{{ $cover.button.href }}" class="btn btn-success mr-3">{{ $cover.button.text }}</a>
+          <a href="{{ $cover.alt_href }}" class="text-muted">{{ $cover.alt_text }}</a>
+      </div>
+      
+      <div class="col-12 col-lg-6 col-md-6 col-sm-12 text-right">
+          <img class="" style="max-width: 100%" src="{{ .Site.BaseURL }}/images/covers/{{ $cover.illustration }}">
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<style type="text/css">
+
+</style>

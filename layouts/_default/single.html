@@ -1,0 +1,15 @@
+{{ $navtype := "hello" }}
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container py-5">
+  <h1 class="">{{ .Params.title }}</h1>
+  <p>{{ .Content }}</p>
+</div>
+
+  
+
+	{{ partial "footer.html" . }}
+
+
+{{ partial "footer-end.html" }}

@@ -1,0 +1,11 @@
+{
+	"title" : "Quality code for your ideas",
+	"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec nulla ac urna suscipit iaculis sit amet ac neque. Cras volutpat scelerisque pretium. Mauris cursus ultricies pulvinar.",
+	"illustration" : "freelancing.svg",
+	"alt_text" : "Or see why we worth it",
+	"alt_href" : "#features",
+	"button" : {
+		"text" : "Contact",
+		"href" : "#contact"
+	}
+}

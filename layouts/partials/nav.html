@@ -1,0 +1,37 @@
+{{ $header := .Site.Data.header }}
+{{- $logoSrc := printf "images/%s" $header.logo | absURL -}}
+    <nav class="navbar nav-transparent navbar-expand-lg navbar-light">
+      <!-- <div class="backdrop-blur"></div> -->
+      <a class="navbar-brand" href="{{.Site.BaseURL}}"><img src="{{$logoSrc}}" height="40px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          {{ range $header.links }}
+
+              <li class="nav-item">
+                <a class="nav-link" href="{{.Site.BaseURL}}{{ .href | relURL }}">{{ .title }}</a>
+              </li>
+              
+            
+          {{ end }}
+        </ul>
+        <ul class="ml-auto navbar-nav">
+
+            <li>
+              <a target="_blank" class="btn btn-primary btn-sm" href="https://uicard.io/products/hugo-lime-pro">Buy Now</a>
+            </li>
+          
+            {{ range $key, $value := .Site.Data.social }}
+            <li class="nav-item" style="font-size: 22px">
+              <a href="{{ $value }}" class="ml-3 text-white btn-{{ $key }}"><i class="fab fa-{{ $key }}"></i></a>
+            </li>
+            {{ end }}
+          
+        </ul>
+      </div>
+    </nav>
+
+

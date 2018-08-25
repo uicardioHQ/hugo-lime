@@ -1,0 +1,36 @@
+{
+  "title" : "Team",
+  "description" : "Little team description here",
+  "members" : [
+    {
+      "name" : "Sarita",
+      "description" : "CEO",
+      "avatar" : "sarita.jpeg",
+      "social" : {
+        "facebook" : "https://facebook.com/damn",
+        "instagram" : "https://instagram.com/damn",
+        "linkedin" : "https://linkedin.com/add/damn"
+      }
+    },
+    {
+      "name" : "Veronica",
+      "description" : "Graphics Designer",
+      "avatar" : "veronica.jpeg",
+      "social" : {
+        "twitter" : "https://twitter.com/damn",
+        "instagram" : "https://instagram.com/damn",
+        "dribbble" : "https://dribbble.com/add/damn"
+      }
+    },
+    {
+      "name" : "John",
+      "description" : "Graphics Designer",
+      "avatar" : "john.jpeg",
+      "social" : {
+        "linkedin" : "https://linkedin.com/damn",
+        "instagram" : "https://instagram.com/damn",
+        "medium" : "https://medium.com/add/damn"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{{ $team := .Site.Data.team }}
+<section id="team" class="text-center py-5">
+  <div class="container">
+    <h2 class="pt-5 h2">{{ $team.title }}</h2>  
+    <p class="text-muted pb-5">{{ $team.description }}</p>
+
+    <div class="members row justify-content-md-center mt-1">
+      {{ range $team.members }}
+        <div class="col-12 col-lg-3 col-md-3 col-sm-3 mb-4">
+          <img class="mb-3 teamAvatar shadow" src="{{.Site.BaseURL}}images/team/{{.avatar }}" alt="{{ .name }}">
+          <h4 class="h4">{{ .name }}</h4>
+          <div class="text-muted">{{ .description }}</div>
+          <div class="text-center mt-3">
+            {{ range $key, $value := .social }}
+            <a data-toggle="tooltip" title="{{ $key }}" href="{{ $value }}" class="ml-2 btn btn-sm btn-filled btn-{{$key}}"><i class="fab fa-{{ $key }}"></i></a>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<style type="text/css">
+</style>
