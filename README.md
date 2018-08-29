@@ -4,7 +4,7 @@ You can build your business website within minutes, all you have to download and
 
 Feature free version includes:
 
-* Cover
+* Cover (1 Free illustration)
 * Features/Services
 * Pricing
 * Partners/Clients
