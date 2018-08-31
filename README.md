@@ -19,8 +19,12 @@ Feature free version includes:
 
 For more information or for any help, [visit this link](https://uicard.io/products/hugo-lime-free)
 
+### Premium features
+
 In premium version we have 3 illustrations and we are adding more in the future
 
 ![Hugo Lime Illustrations](https://api.uicard.io/uploads/1d344bcf401ef4a86fee6a36e1b3a790.jpg)
+
+### Useful Links
 
 [Demo](http://demo.uicard.io/hugo-lime-free-demo) | [Free Version](https://uicard.io/products/hugo-lime) | [Pro Version](https://uicard.io/products/hugo-lime-pro)
