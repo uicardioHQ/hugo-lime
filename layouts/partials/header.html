@@ -30,7 +30,7 @@
 
     {{ $sass := resources.Get "/scss/bootstrap.scss" }}
     {{ $style := $sass | resources.ToCSS | resources.Minify}} 
-    <link rel="stylesheet" href="{{ $style.Permalink }}"> 
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}"> 
   </head>
   <body>
     
