@@ -1,11 +1,11 @@
 /* 
 ==============================================
-* Green Paper - v1.0
+* Hugo Lime - v1.0
 ==============================================
 
-* Demo: https://demo.uicard.io/green-paper-pro/
-* Free Version: https://uicard.io/products/green-paper
-* Premium Version: https://uicard.io/products/green-paper-pro
+* Demo: https://demo.uicard.io/hugo-lime-pro/
+* Free Version: https://uicard.io/products/hugo-lime
+* Premium Version: https://uicard.io/products/hugo-lime-pro
 
 ==============================================
 * Coded By : UICardio https://uicard.io

@@ -19,11 +19,6 @@
           {{ end }}
         </ul>
         <ul class="ml-auto navbar-nav">
-
-            <li>
-              <a target="_blank" class="btn btn-primary btn-sm" href="https://uicard.io/products/hugo-lime-pro">Buy Now</a>
-            </li>
-          
             {{ range $key, $value := .Site.Data.social }}
             <li class="nav-item" style="font-size: 22px">
               <a href="{{ $value }}" class="ml-3 text-white btn-{{ $key }}"><i class="fab fa-{{ $key }}"></i></a>
