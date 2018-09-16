@@ -7,7 +7,7 @@ You can build your business website within minutes, all you have to download and
 Feature comparison of free and pro versions:
 
 | Free Version  | Pro Version   |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | 1 Illustration | 3 Illustrations |
 | Cover      | Cover      |
 | Features/Services | Features/Services |
@@ -24,7 +24,7 @@ Feature comparison of free and pro versions:
 
 For more information or for any help, [visit this link](https://uicard.io/products/hugo-lime-free)
 
-### Premium features
+### Illustrations
 
 In premium version we have 3 illustrations and we are adding more in the future
 
